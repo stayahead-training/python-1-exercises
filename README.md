@@ -8,5 +8,6 @@
 - [Operators and Expressions](content/operators-and-expressions.md)
 - [Functions](content/functions.md)
 - [Conditions and Loops](content/conditions-and-loops.md)
+- [Objects and Classes](content/objects-and-classes.md)
 - [Containers](content/containers.md)
 - [Exception Handling](content/exception-handling.md)
