@@ -239,7 +239,8 @@
             return 0
         return num + do_something(num - 1)
 
-    do_something(3)
+    result = do_something(3)
+    print(result)
     ```
 
 [<<< back](../README.md)
