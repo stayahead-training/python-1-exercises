@@ -54,7 +54,7 @@
     - Replace the hyphen with a space
     - Capitalise the first letter of each name
 
-    Finally, write the data to stdout.</details>
+    Finally, write the data to stdout.<details>
     <summary>Show me</summary>
 
     ```python
