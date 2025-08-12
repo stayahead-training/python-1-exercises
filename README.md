@@ -11,4 +11,5 @@
 - [Objects and Classes](content/objects-and-classes.md)
 - [Containers](content/containers.md)
 - [Strings](content/strings.md)
+- [Modules and Packages](content/modules-and-packages.md)
 - [Exception Handling](content/exception-handling.md)
