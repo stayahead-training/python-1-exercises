@@ -12,4 +12,5 @@
 - [Containers](content/containers.md)
 - [Strings](content/strings.md)
 - [Modules and Packages](content/modules-and-packages.md)
+- [Pattern Matching](content/pattern-matching.md)
 - [Exception Handling](content/exception-handling.md)
