@@ -14,3 +14,4 @@
 - [Modules and Packages](content/modules-and-packages.md)
 - [Pattern Matching](content/pattern-matching.md)
 - [Exception Handling](content/exception-handling.md)
+- [Files and the Filesystem](content/files-and-the-filesystem.md)
