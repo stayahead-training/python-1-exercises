@@ -84,7 +84,7 @@ NB: on a Windows machine the Python executable is likely to be named `python`. O
 
     *Compilation is the conversion of source code (the code developers write) into machine code (the instructions the operating system understands).*
     
-    *Python source code is (almost always) interpreted. That it to say the developer need not manually compile Python source code before executing it.*
+    *Python source code is (almost always) interpreted. That is to say the developer need not manually compile Python source code before executing it.*
 </details>
 
 [<<< back](../README.md)
