@@ -90,6 +90,38 @@
     ]
     ```
 
-    Hint: create a pattern that exploits groups and the re module's match function. Be sure to code a script to test your module.
+    Hint: create a pattern that exploits groups and the re module's match function. Be sure to code a script to test your module.<details>
+        <summary>Show me</summary>
+
+        ```python
+        # accounts.py
+        def parse_accounts(string):
+            import re
+            pattern = r"(\d{4}) [A-z]+:\n[A-z]+ ([A-z]+),([-\d\.]+)\n"
+            results = re.findall(pattern, string)
+            accounts = []
+            for number, last_name, balance in results:
+                accounts.append({
+                    "number": int(number),
+                    "last_name": last_name,
+                    "balance": float(balance)
+                })
+            return accounts
+
+        # accounts_test.py
+        import accounts as acc
+        
+        data = """
+        1234 Credit:
+        David Smith,500.0
+        2345 Debit:
+        Sarah Jones,-150.0
+        """
+
+        accounts = acc.parse_accounts(data)
+        for account in accounts:
+            print(account)
+        ```
+    </details>
 
 [<<< back](../README.md)
