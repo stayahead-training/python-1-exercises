@@ -19,7 +19,7 @@
 3. What is the effect of coding a string literal surrounded by triple quotes?<details>
     <summary>Show me</summary>
 
-    *The string can span many lines and newline characters will be inserted automatically.*
+    *The string can span many lines.*
 </details>
 
 4. What is output by the following line of code?
