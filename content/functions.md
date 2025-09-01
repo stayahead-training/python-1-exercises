@@ -48,7 +48,7 @@
     ```
 </details>
 
-3. Code a function that outputs (returns) `Goodbye [name]` to stdout where `[name]` is passed to the function as an argument.<details>
+3. Code a function that outputs (returns) `Goodbye [name]` where `[name]` is passed to the function as an argument.<details>
     <summary>Show me</summary>
 
     Function definition (in my_functions.py):
