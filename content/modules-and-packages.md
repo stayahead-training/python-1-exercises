@@ -81,7 +81,7 @@ Note that some of these tasks will require you to do some research into standard
     <details>
     <summary>Show me</summary>
 
-    *The expression will evaluate to `True` if the module is executed. The expression will evaluate to `False` if the module is imported (the __name__ variable is set to the module's name in that case).*
+    *The expression will evaluate to `True` if the module is executed. The expression will evaluate to `False` if the module is imported (the `__name__` variable is set to the module's name in that case).*
     </details>
 
 [<<< back](../README.md)
