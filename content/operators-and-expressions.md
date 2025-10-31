@@ -32,7 +32,7 @@
     <summary>Show me</summary>
 
     ```
-    $ python
+    $ python3
     >>> bool(0)
     False
     >>> bool(0.0)
@@ -64,7 +64,7 @@
     <summary>Show me</summary>
 
     ```
-    $ python
+    $ python3
     >>> num = 0
     >>> num += 5
     >>> num -= 2

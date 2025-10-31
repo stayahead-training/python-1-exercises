@@ -30,7 +30,7 @@
     <summary>Show me</summary>
 
     ```
-    $ python
+    $ python3
     >>> loan_amount = 5000
     >>> loan_amount * 0.18
     900.0
@@ -42,7 +42,7 @@
     <summary>Show me</summary>
 
     ```
-    $ python
+    $ python3
     >>> price = 7.50
     >>> price - price * 0.1
     6.75
@@ -54,7 +54,7 @@
     <summary>Show me</summary>
 
     ```
-    $ python
+    $ python3
     >>> my_name = "Stuart"
     >>> my_name
     'Stuart'
@@ -66,7 +66,7 @@
     <summary>Show me</summary>
 
     ```
-    $ python
+    $ python3
     >>> first_word = "cup"
     >>> second_word = "board"
     >>> first_word + second_word
@@ -79,7 +79,7 @@
     <summary>Show me</summary>
 
     ```
-    $ python
+    $ python3
     >>> first_word = "mea"
     >>> second_word = "culpa"
     >>> first_word + " " + second_word
@@ -92,7 +92,7 @@
     <summary>Show me</summary>
 
     ```
-    $ python
+    $ python3
     >>> weeks = 25
     >>> weeks * 7
     175
@@ -143,7 +143,7 @@ print(name)
 
     Commands:
     ```
-    $ python rugby.py
+    $ python3 rugby.py
     15
     ```
 </details>
@@ -163,7 +163,7 @@ print(name)
     Commands:
 
     ```
-    $ python rugby.py
+    $ python3 rugby.py
     22
     ```
 </details>
@@ -204,7 +204,7 @@ print(name)
     <summary>Show me</summary>
 
     ```
-    $ python
+    $ python3
     >>> nums = [10, 20, 30]
     >>> nums[1]
     20
@@ -234,7 +234,7 @@ print(name)
     Commands:
 
     ```
-    $ python names.py
+    $ python3 names.py
     ['Tom', 'Dick', 'Harry']
     ```
 </details>
@@ -243,7 +243,7 @@ print(name)
     <summary>Show me</summary>
 
     ```
-    $ python
+    $ python3
     >>> client = {"name": "John Smith", "email": "jsmith@mail.com"}
     >>> client["email"]
     'jsmith@mail.com'
@@ -283,7 +283,7 @@ print(name)
     Commands:
 
     ```
-    $ python football_match.py
+    $ python3 football_match.py
     {'home_team': 'Chelsea', 'away_team': 'Liverpool', 'home_team_score': 0, 'away_team_score': 1}
     ```
 </details>

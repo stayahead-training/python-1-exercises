@@ -45,7 +45,7 @@ Note that some of these tasks will require you to do some research into standard
     <summary>Show me</summary>
 
     ```
-    $ pip install requests
+    $ pip3 install requests
     ```
 </details>
 

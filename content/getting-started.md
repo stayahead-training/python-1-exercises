@@ -4,13 +4,13 @@
 
 [<<< back](../README.md)
 
-NB: on a Windows machine the Python executable is likely to be named `python`. On a UNIX-based machine the Python executable is likely to be named `python3`. The exercises assume a Windows machine.
+NB: on a Windows machine the Python executable is likely to be named `python`. On a UNIX-based machine the Python executable is likely to be named `python3`. The exercises assume a UNIX-based machine.
 
 1. Use Python in interactive/REPL mode to compute the square of 167.<details>
     <summary>Show me</summary>
 
     ```
-    $ python
+    $ python3
     >>> 167 * 167
     27889
     >>> exit()
@@ -21,7 +21,7 @@ NB: on a Windows machine the Python executable is likely to be named `python`. O
     <summary>Show me</summary>
 
     ```
-    $ python
+    $ python3
     >>> 75000 / 4
     18750.0
     >>> exit()
@@ -32,7 +32,7 @@ NB: on a Windows machine the Python executable is likely to be named `python`. O
     <summary>Show me</summary>
 
     ```
-    $ python
+    $ python3
     >>> 95 * 0.07
     6.65
     >>> exit()
@@ -52,7 +52,7 @@ NB: on a Windows machine the Python executable is likely to be named `python`. O
     <summary>Show me</summary><br />
 
     ```
-    $ python double_it.py
+    $ python3 double_it.py
     Enter a whole number: 5
     5 doubled is 10
     ```
@@ -73,7 +73,7 @@ NB: on a Windows machine the Python executable is likely to be named `python`. O
     Commands:
 
     ```
-    $ python square_it.py
+    $ python3 square_it.py
     Enter a whole number: 5
     5 squared is 25
     ```

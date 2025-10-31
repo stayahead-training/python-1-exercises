@@ -37,7 +37,7 @@
     <summary>Show me</summary>
 
     ```
-    $ python
+    $ python3
     >>> num = 5
     >>> num.bit_length()
     3
@@ -49,7 +49,7 @@
     <summary>Show me</summary>
 
     ```
-    $ python
+    $ python3
     >>> word = "Hello"
     >>> word.rfind("l")
     3
@@ -61,7 +61,7 @@
     <summary>Show me</summary>
 
     ```
-    $ python
+    $ python3
     >>> nums = [1, 2, 3]
     >>> nums.pop()
     3
@@ -79,7 +79,7 @@
     <summary>Show me</summary>
 
     ```
-    $ python
+    $ python3
     >>> result = {
     ... "name": "Peter",
     ... "reading_score": 71,
@@ -167,7 +167,7 @@
     <summary>Show me</summary>
 
     ```
-    $ python
+    $ python3
     >>> x = "Immutable"
     >>> y = "Immutable"
     >>> id(x)
