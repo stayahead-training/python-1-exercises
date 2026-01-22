@@ -6,7 +6,9 @@
 
 NB: on a Windows machine the Python executable is likely to be named `python`. On a UNIX-based machine the Python executable is likely to be named `python3`. The exercises assume a UNIX-based machine.
 
-1. Use Python in interactive/REPL mode to compute the square of 167.<details>
+1. Use Python in interactive/REPL mode to compute the square of 167.
+
+    <details>
     <summary>Show me</summary>
 
     ```
@@ -15,9 +17,11 @@ NB: on a Windows machine the Python executable is likely to be named `python`. O
     27889
     >>> exit()
     ```
-</details>
+    </details>
 
-2. Use Python in interactive/REPL mode to compute a quarter of 75,000.<details>
+2. Use Python in interactive/REPL mode to compute a quarter of 75,000.
+
+    <details>
     <summary>Show me</summary>
 
     ```
@@ -26,9 +30,11 @@ NB: on a Windows machine the Python executable is likely to be named `python`. O
     18750.0
     >>> exit()
     ```
-</details>
+    </details>
 
-3. Use Python in interactive/REPL mode to compute 7% of 95.<details>
+3. Use Python in interactive/REPL mode to compute 7% of 95.
+
+    <details>
     <summary>Show me</summary>
 
     ```
@@ -37,7 +43,7 @@ NB: on a Windows machine the Python executable is likely to be named `python`. O
     6.65
     >>> exit()
     ```
-</details>
+    </details>
 
 4. Copy the code below into a file named **double_it.py**, save your changes, then execute the script using Python.
 
@@ -58,7 +64,9 @@ NB: on a Windows machine the Python executable is likely to be named `python`. O
     ```
 </details>
 
-5. Create a copy of the double_it.py file named **square_it.py**. Amend the script so that it squares the given number. Save your changes then execute the script using Python.<details>
+5. Create a copy of the double_it.py file named **square_it.py**. Amend the script so that it squares the given number. Save your changes then execute the script using Python.
+
+    <details>
     <summary>Show me</summary>
 
     File contents:
@@ -77,14 +85,16 @@ NB: on a Windows machine the Python executable is likely to be named `python`. O
     Enter a whole number: 5
     5 squared is 25
     ```
-</details>
+    </details>
 
-6. Python code is often said to be interpreted, not compiled. What does this mean, and is it true?<details>
+6. Python code is often said to be interpreted, not compiled. What does this mean, and is it true?
+
+    <details>
     <summary>Show me</summary>
 
     *Compilation is the conversion of source code (the code developers write) into machine code (the instructions the operating system understands).*
     
     *Python source code is (almost always) interpreted. That is to say the developer need not manually compile Python source code before executing it.*
-</details>
+    </details>
 
 [<<< back](../README.md)
