@@ -122,6 +122,7 @@
     <details>
     <summary>Show me</summary>
     <br />
+
     *bool, int, float, and str methods always return something because objects of those types are immutable. The referenced object cannot be modified so the methods must return something.*
     
     *list and dict methods don't always return something because object of those types are mutable. The methods may mutate the referenced object instead of/in addition to returning something.*
@@ -132,6 +133,7 @@
     <details>
     <summary>Show me</summary>
     <br />
+
     *Dunder stands for double underscore. Dunder attributes and methods (those named with two leading and two trailing underscores) are for internal use by Python and should not be accessed directly.*
     
     *Dunder methods provide the implementations for operators and builtin functions.*
@@ -148,6 +150,7 @@
     <details>
     <summary>Show me</summary>
     <br />
+
     *`x` is `"Hello world"` and `y` is `"Hello"`.*
 
     *After the second line of code is executed, both `x` and `y` reference the same string object.* 
@@ -168,6 +171,7 @@
     <details>
     <summary>Show me</summary>
     <br />
+
     *`x` is `["Hello world"]` and `y` is `["Hello world"]`.*
 
     *After the second line of code is executed, both `x` and `y` reference the same list object.* 
@@ -229,6 +233,7 @@
     <details>
     <summary>Show me</summary>
     <br />
+    
     *The method parameter conventionally named `self` refers to the current object.* 
     
     *Given the class exists before any object that is created from it, one cannot know how to reference said objects in advance. Python deals with this problem by automatically passing a reference to the object on which the method is called as the first argument to each of the methods. This is why the first parameter in each method is named self, but could, in fact, be named anything.*
