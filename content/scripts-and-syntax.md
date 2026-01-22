@@ -36,7 +36,6 @@
     <br />
     <details>
     <summary>Show me</summary>
-    <br />
 
     - `#`
     </details>
@@ -54,7 +53,6 @@
     <br />
     <details>
     <summary>Show me</summary>
-    <br />
 
     - None of the above - a line of code is terminated by the newline character
     </details>
@@ -63,7 +61,6 @@
 
     <details>
     <summary>Show me</summary>
-    <br />
 
     *True*
     </details>
@@ -79,7 +76,6 @@
     <br />
     <details>
     <summary>Show me</summary>
-    <br />
     
     - `print("Hello")`
     </details>
