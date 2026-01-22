@@ -24,9 +24,11 @@
     - `77`: data; starts with a digit
     - `True`: data; is a keyword
     - `fred`: name; no quotes; does not begin with a digit; is not a keyword
-</details>
+    </details>
 
-2. Use Python in interactive/REPL mode to store the number `5000` in memory such that it is accessible using the name `loan_amount`. Then compute 18% of the loan amount.<details>
+2. Use Python in interactive/REPL mode to store the number `5000` in memory such that it is accessible using the name `loan_amount`. Then compute 18% of the loan amount.
+
+    <details>
     <summary>Show me</summary>
 
     ```
@@ -36,9 +38,11 @@
     900.0
     >>> exit()
     ```
-</details>
+    </details>
 
-3. Use Python in interactive/REPL mode to store the number `7.50` in memory such that it is accessible using the name `price`. Then compute the price reduced by 10%.<details>
+3. Use Python in interactive/REPL mode to store the number `7.50` in memory such that it is accessible using the name `price`. Then compute the price reduced by 10%.
+
+    <details>
     <summary>Show me</summary>
 
     ```
@@ -48,9 +52,11 @@
     6.75
     >>> exit()
     ```
-</details>
+    </details>
 
-4. Use Python in interactive/REPL mode to store your name in memory such that it is accessible using the name `my_name`. Then have Python write the value of my_name to the screen.<details>
+4. Use Python in interactive/REPL mode to store your name in memory such that it is accessible using the name `my_name`. Then have Python write the value of my_name to the screen.
+
+    <details>
     <summary>Show me</summary>
 
     ```
@@ -60,9 +66,11 @@
     'Stuart'
     >>> exit()
     ```
-</details>
+    </details>
 
-5. Use Python in interactive/REPL mode to store the words `cup` and `board` in memory such that the first word is accessible using the name `first_word`, and the second word is accessible using the name `second_word`. Then have Python write the values of both names to the screen on one line. Note that the `+` operator may be used to concatenate (join) text data together.<details>
+5. Use Python in interactive/REPL mode to store the words `cup` and `board` in memory such that the first word is accessible using the name `first_word`, and the second word is accessible using the name `second_word`. Then have Python write the values of both names to the screen on one line. Note that the `+` operator may be used to concatenate (join) text data together.
+
+    <details>
     <summary>Show me</summary>
 
     ```
@@ -73,9 +81,11 @@
     'cupboard'
     >>> exit()
     ```
-</details>
+    </details>
 
-6. Use Python in interactive/REPL mode to store the words `mea` and `culpa` in memory such that the first word is accessible using the name `first_word`, and the second word is accessible using the name `second_word`. Then have Python write the values of both names to the screen with a space in between.<details>
+6. Use Python in interactive/REPL mode to store the words `mea` and `culpa` in memory such that the first word is accessible using the name `first_word`, and the second word is accessible using the name `second_word`. Then have Python write the values of both names to the screen with a space in between.
+
+    <details>
     <summary>Show me</summary>
 
     ```
@@ -86,9 +96,11 @@
     'mea cupla'
     >>> exit()
     ```
-</details>
+    </details>
 
-7. Use Python in interactive/REPL mode to store the number `25` in memory such that it is accessible using the name `weeks`. Then compute the number of days in the given weeks. Finally, assign a new value to the name weeks - `32` - and compute again the number of days.<details>
+7. Use Python in interactive/REPL mode to store the number `25` in memory such that it is accessible using the name `weeks`. Then compute the number of days in the given weeks. Finally, assign a new value to the name weeks - `32` - and compute again the number of days.
+
+    <details>
     <summary>Show me</summary>
 
     ```
@@ -101,7 +113,7 @@
     224
     >>> exit()
     ```
-</details>
+    </details>
 
 NB: When using Python in interactive/REPL mode the result of each expression is automatically written to the screen, e.g.:
 
@@ -131,7 +143,9 @@ name = "Fred"
 print(name)
 ```
 
-8. Code a script named <b>rugby.py</b> that stores the number `3` in memory such that it is accessible using the name `tries`. Then compute the score and write to the screen (each try is worth 5 points). Execute the script using Python when you're done.<details>
+8. Code a script named <b>rugby.py</b> that stores the number `3` in memory such that it is accessible using the name `tries`. Then compute the score and write to the screen (each try is worth 5 points). Execute the script using Python when you're done.
+
+    <details>
     <summary>Show me</summary>
 
     File contents:
@@ -146,9 +160,11 @@ print(name)
     $ python3 rugby.py
     15
     ```
-</details>
+    </details>
 
-9. Extend the rugby script such that it also stores in memory the number of conversions (2) and the number of penalties (1). Each conversion is worth 2 points, and each penalty is worth 3 points. Refactor the code such that the score is the sum of the points scored for all tries, conversions, and penalties.<details>
+9. Extend the rugby script such that it also stores in memory the number of conversions (2) and the number of penalties (1). Each conversion is worth 2 points, and each penalty is worth 3 points. Refactor the code such that the score is the sum of the points scored for all tries, conversions, and penalties.
+
+    <details>
     <summary>Show me</summary>
 
     File contents:
@@ -166,7 +182,7 @@ print(name)
     $ python3 rugby.py
     22
     ```
-</details>
+    </details>
 
 10. Which of the following are built-in Python data types?
 
@@ -185,7 +201,7 @@ print(name)
     - `float`
     - `str`
     - `bool`
-</details>
+    </details>
 
 11. Which of the following lines of code will write to the screen the data type of the name `x`?
 
@@ -198,9 +214,11 @@ print(name)
     <summary>Show me</summary>
 
     - `print(type(x))`
-</details>
+    </details>
 
-12. Use Python in interactive/REPL mode to store in memory the numbers `10`, `20`, and `30` in a list named `nums`. Then have Python write the second element in the list to the screen.<details>
+12. Use Python in interactive/REPL mode to store in memory the numbers `10`, `20`, and `30` in a list named `nums`. Then have Python write the second element in the list to the screen.
+
+    <details>
     <summary>Show me</summary>
 
     ```
@@ -210,7 +228,7 @@ print(name)
     20
     >>> exit()
     ```
-</details>
+    </details>
 
 13. Copy the code below into a script named <b>names.py</b> then add to it such that `['Tom', 'Dick', 'Harry']` is written to the screen when the script is executed.
 
@@ -237,9 +255,11 @@ print(name)
     $ python3 names.py
     ['Tom', 'Dick', 'Harry']
     ```
-</details>
+    </details>
 
-14. Use Python in interactive/REPL mode to store in memory a client's name - `John Smith` - and his email address - `jsmith@mail.com` - in a dictionary named `client`. Then have Python write the client's email address to the screen.<details>
+14. Use Python in interactive/REPL mode to store in memory a client's name - `John Smith` - and his email address - `jsmith@mail.com` - in a dictionary named `client`. Then have Python write the client's email address to the screen.
+
+    <details>
     <summary>Show me</summary>
 
     ```
@@ -249,7 +269,7 @@ print(name)
     'jsmith@mail.com'
     >>> exit()
     ```
-</details>
+    </details>
 
 15. Copy the code below into a script named <b>football.py</b> then add to it to reflect the fact that Liverpool have scored. Execute the script when you're done.
 
@@ -286,7 +306,7 @@ print(name)
     $ python3 football_match.py
     {'home_team': 'Chelsea', 'away_team': 'Liverpool', 'home_team_score': 0, 'away_team_score': 1}
     ```
-</details>
+    </details>
 
 16. What is output by the following line of code?
 
@@ -300,7 +320,7 @@ print(name)
     ```
     124
     ```
-</details>
+    </details>
 
 17. What is output by the following line of code?
 
@@ -314,6 +334,6 @@ print(name)
     ```
     '1231'
     ```
-</details>
+    </details>
 
 [<<< back](../README.md)
