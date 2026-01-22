@@ -10,7 +10,7 @@
 
     <details>
     <summary>Show me</summary>
-
+    <br />
     Function definition (in my_functions.py):
 
     ```python
@@ -27,11 +27,11 @@
     ```
     </details>
 
-2. Code a function that writes `Hello [name]` to stdout where `[name]` is passed to the function as an argument.
+3. Code a function that writes `Hello [name]` to stdout where `[name]` is passed to the function as an argument.
 
     <details>
     <summary>Show me</summary>
-
+    <br />
     Function definition (in my_functions.py):
 
     ```python
@@ -52,11 +52,11 @@
     ```
     </details>
 
-3. Code a function that outputs (returns) `Goodbye [name]` where `[name]` is passed to the function as an argument.
+4. Code a function that outputs (returns) `Goodbye [name]` where `[name]` is passed to the function as an argument.
 
     <details>
     <summary>Show me</summary>
-
+    <br />
     Function definition (in my_functions.py):
 
     ```python
@@ -77,11 +77,11 @@
     ```
     </details>
 
-4. Code a function that returns the product of the two numbers given as arguments.
+5. Code a function that returns the product of the two numbers given as arguments.
 
     <details>
     <summary>Show me</summary>
-
+    <br />
     Function definition (in my_functions.py):
 
     ```python
@@ -102,11 +102,11 @@
     ```
     </details>
 
-5. Code a function that returns the first element in the list given as an argument.
+6. Code a function that returns the first element in the list given as an argument.
 
     <details>
     <summary>Show me</summary>
-
+    <br />
     Function definition (in my_functions.py):
 
     ```python
@@ -127,11 +127,11 @@
     ```
     </details>
 
-6. Code a function that accepts a dict with `fname` and `lname` keys. It should print the first name and last name on one line with a space between each name.
+7. Code a function that accepts a dict with `fname` and `lname` keys. It should print the first name and last name on one line with a space between each name.
 
     <details>
     <summary>Show me</summary>
-
+    <br />
     Function definition (in my_functions.py):
 
     ```python
@@ -152,11 +152,11 @@
     ```
     </details>
 
-7. Modify the function you created for task 2 such that the name parameter is optional. If the caller does not pass a name the function should print `Hello Guest`.
+8. Modify the function you created for task 2 such that the name parameter is optional. If the caller does not pass a name the function should print `Hello Guest`.
 
     <details>
     <summary>Show me</summary>
-
+    <br />
     Function definition (in my_functions.py):
 
     ```python
@@ -178,11 +178,11 @@
     ```
     </details>
 
-8. Code a function that accepts a number and an exponent as arguments and returns the number raised to the given power. Test it using keyword arguments, that is, call it such that the exponent is the first argument given and the number is the second.
+9. Code a function that accepts a number and an exponent as arguments and returns the number raised to the given power. Test it using keyword arguments, that is, call it such that the exponent is the first argument given and the number is the second.
 
     <details>
     <summary>Show me</summary>
-
+    <br />
     Function definition (in my_functions.py):
 
     ```python
@@ -203,11 +203,11 @@
     ```
     </details>
 
-9. Code a function that increments by one a global variable named `counter`.
+10. Code a function that increments by one a global variable named `counter`.
 
     <details>
     <summary>Show me</summary>
-
+    <br />
     Function definition (in my_functions.py):
 
     ```python
@@ -228,7 +228,7 @@
     ```
     </details>
 
-10. What is written to stdout by the following code?
+11. What is written to stdout by the following code?
 
     ```python
     num = 1
@@ -239,7 +239,7 @@
     print(num)
     ```
 
-11. What is written to stdout by the following code?
+12. What is written to stdout by the following code?
 
     ```python
     num = 1
@@ -249,7 +249,7 @@
     do_something()
     ```
 
-12. What is written to stdout by the following code?
+13. What is written to stdout by the following code?
 
     ```python
     def do_something(num):
