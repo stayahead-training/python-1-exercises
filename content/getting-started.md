@@ -68,7 +68,7 @@ NB: on a Windows machine the Python executable is likely to be named `python`. O
 
     <details>
     <summary>Show me</summary>
-
+    <br />
     File contents:
 
     ```python
@@ -91,7 +91,7 @@ NB: on a Windows machine the Python executable is likely to be named `python`. O
 
     <details>
     <summary>Show me</summary>
-
+    <br />
     *Compilation is the conversion of source code (the code developers write) into machine code (the instructions the operating system understands).*
     
     *Python source code is (almost always) interpreted. That is to say the developer need not manually compile Python source code before executing it.*
