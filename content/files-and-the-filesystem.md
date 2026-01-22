@@ -54,7 +54,8 @@
 
     <details>
     <summary>Show me</summary>
-
+    <br />
+    
     *A context manager is an object whose class implements the `__enter__` and `__exit__` dunder methods.*
     
     *When instantiated in a `with` block the context manager's `__exit__` method is called at the end of the block.*
