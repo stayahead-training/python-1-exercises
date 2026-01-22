@@ -4,7 +4,9 @@
 
 [<<< back](../README.md)
 
-1. Create a script that enables the searching (by title) of this [SQLite database](books.sqlite.db). It contains a table of `books` with `id`, `title`, `author`, and `category` columns.<details>
+1. Create a script that enables the searching (by title) of this [SQLite database](books.sqlite.db). It contains a table of `books` with `id`, `title`, `author`, and `category` columns.
+
+    <details>
     <summary>Show me</summary>
 
     ```python
@@ -30,7 +32,7 @@
         else:
             print("No matching books!")
     ```
-</details>
+    </details>
 
 2. Refactor your solution for task 1 so that some of the work is abstracted away into a function. Hint: ideally the script should give no indication that the data is stored in a database. That is, for all the script knows, the data could be stored anywhere.
 

@@ -28,7 +28,9 @@
     - `1 is 1.0`
     <br />
 
-3. Use Python in interactive/REPL mode to determine the truthiness/falsiness of each of the following values: `0`, `0.0`, `1`, `2`, `2.5`, `""`, `" "`, `"Hello"`, `[]`, `[1]`, `[1, 2, 3]`, `{}`, `{"a": 1}`, and `None`.<details>
+3. Use Python in interactive/REPL mode to determine the truthiness/falsiness of each of the following values: `0`, `0.0`, `1`, `2`, `2.5`, `""`, `" "`, `"Hello"`, `[]`, `[1]`, `[1, 2, 3]`, `{}`, `{"a": 1}`, and `None`.
+
+    <details>
     <summary>Show me</summary>
 
     ```
@@ -41,7 +43,7 @@
     True
     ...
     ```
-</details>
+    </details>
 
 4. What is the result of each of the following logical expressions. Execute some/all of the expressions using Python in interactive/REPL mode if you have to. Be sure that you understand each result before moving on.
 
@@ -60,7 +62,9 @@
     - multiply by 3
     - divide by 2
 
-    Finally, have Python write the value of num to the screen.<details>
+    Finally, have Python write the value of num to the screen.
+    
+    <details>
     <summary>Show me</summary>
 
     ```
@@ -74,7 +78,7 @@
     4.5
     >>> exit()
     ```
-</details>
+    </details>
 
 6. What is the result of each of the following compound expressions. Execute some/all of the expressions using Python in interactive/REPL mode if you have to. Be sure that you understand each result before moving on.
 

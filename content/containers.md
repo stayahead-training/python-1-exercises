@@ -82,7 +82,9 @@
     - Remove the `Sugar`
     - Insert `Butter` after the `Mushrooms`
 
-    Finally, write to stdout each ingredient on a new line.<details>
+    Finally, write to stdout each ingredient on a new line.
+    
+    <details>
     <summary>Show me</summary>
 
     ```python
@@ -106,7 +108,7 @@
     for ingredient in ingredients:
         print(ingredient)
     ```
-</details>
+    </details>
 
 10. What is output by the following line of code?
 
@@ -146,7 +148,9 @@
     - Add a `cameos` key value pair that contains John Candy, Carrie Fisher, Aretha Franklin, James Brown, and Ray Charles.
     - Remove the `reviews` key value pair
     
-    Finally, write to stdout each key value pair on a new line.<details>
+    Finally, write to stdout each key value pair on a new line.
+    
+    <details>
     <summary>Show me</summary>
 
     ```python
@@ -174,6 +178,6 @@
     for key, value in movie.items():
         print(key, value)
     ```
-</details>
+    </details>
 
 [<<< back](../README.md)

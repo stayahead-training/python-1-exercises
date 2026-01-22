@@ -6,7 +6,9 @@
 
 Note that some of these tasks will require you to do some research into standard library modules.
 
-1. Using the standard library module, `datetime`, create a module containing a function that returns the date a week from today. Then code a script that tests your module.<details>
+1. Using the standard library module, `datetime`, create a module containing a function that returns the date a week from today. Then code a script that tests your module.
+
+    <details>
     <summary>Show me</summary>
 
     ```python
@@ -21,9 +23,11 @@ Note that some of these tasks will require you to do some research into standard
     import my_date_functions as mdf
     assert str(mdf.a_week_from_today()) == ...
     ```
-</details>
+    </details>
 
-2. Using the standard library module, `turtle`, create a module containing a function that accepts a turtle and has it draw a square of the given size. Then code a script that tests your module.<details>
+2. Using the standard library module, `turtle`, create a module containing a function that accepts a turtle and has it draw a square of the given size. Then code a script that tests your module.
+
+    <details>
     <summary>Show me</summary>
 
     ```python
@@ -39,21 +43,25 @@ Note that some of these tasks will require you to do some research into standard
     my_turtle = turtle.Turtle()
     mtf.draw_square(my_turtle, 100)
     ```
-</details>
+    </details>
 
-3. What command would one run to install the 3rd party library `requests`?<details>
+3. What command would one run to install the 3rd party library `requests`?
+
+    <details>
     <summary>Show me</summary>
 
     ```
     $ pip3 install requests
     ```
-</details>
+    </details>
 
-4. What does the `__pycache__` directory contain and what purpose does it serve?<details>
+4. What does the `__pycache__` directory contain and what purpose does it serve?
+
+    <details>
     <summary>Show me</summary>
 
    *The `__pycache__` directory contains a cache of bytecode files (compiled Python source code) - one for each imported module. These files serve to speed up the loading of imported modules on subsequent executions of the script.*
-</details>
+    </details>
 
 5. Use Python in interactive/REPL mode to execute the following code:
 
@@ -78,6 +86,7 @@ Note that some of these tasks will require you to do some research into standard
     if __name__ == "__main__":
         pass
     ```
+    
     <details>
     <summary>Show me</summary>
 

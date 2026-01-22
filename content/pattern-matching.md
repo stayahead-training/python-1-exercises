@@ -4,11 +4,13 @@
 
 [<<< back](../README.md)
 
-1. What is a regex?<details>
+1. What is a regex?
+
+    <details>
     <summary>Show me</summary>
 
     *A regex (regular expression) is a sequence of characters that forms a pattern to match against string data.*
-</details>
+    </details>
 
 2. Match each of the metacharacters with its definition.
 
@@ -55,7 +57,9 @@
     - `[£$€]`
     - `[^4-9]`
 
-7. Create a module containing a function to verify the given string is a valid UK number plate (given current rules). Then code a script to test your module.<details>
+7. Create a module containing a function to verify the given string is a valid UK number plate (given current rules). Then code a script to test your module.
+
+    <details>
     <summary>Show me</summary>
 
     ```python
@@ -70,7 +74,7 @@
     assert mv.is_valid_number_plate("AB12 CDE")
     assert not mv.is_valid_number_plate("A12B CD3")
     ```
-</details>
+    </details>
 
 8. Create a module containing a function that uses a regex to parse bank account data in the following form:
 
@@ -90,7 +94,9 @@
     ]
     ```
 
-    Hint: create a pattern that exploits groups and the re module's match function. Be sure to code a script to test your module.<details>
+    Hint: create a pattern that exploits groups and the re module's match function. Be sure to code a script to test your module.
+    
+    <details>
     <summary>Show me</summary>
 
     ```python
@@ -122,6 +128,6 @@
     for account in accounts:
         print(account)
     ```
-</details>
+    </details>
 
 [<<< back](../README.md)

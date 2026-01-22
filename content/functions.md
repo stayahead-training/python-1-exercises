@@ -6,7 +6,9 @@
 
 1. Create two files, one named **my_functions.py** and the other named **my_functions_test.py**. Each of the functions described below should be defined in my_functions.py and tested in my_functions_test.py. Each function should be named as you see fit. **Note that one should not have to examine the body of a function to know what it does.**
 
-2. Code a function that writes `Hello` to stdout.<details>
+2. Code a function that writes `Hello` to stdout.
+
+    <details>
     <summary>Show me</summary>
 
     Function definition (in my_functions.py):
@@ -23,9 +25,11 @@
     
     mf.print_hello()
     ```
-</details>
+    </details>
 
-2. Code a function that writes `Hello [name]` to stdout where `[name]` is passed to the function as an argument.<details>
+2. Code a function that writes `Hello [name]` to stdout where `[name]` is passed to the function as an argument.
+
+    <details>
     <summary>Show me</summary>
 
     Function definition (in my_functions.py):
@@ -46,9 +50,11 @@
     mf.print_hello_to(some_name)
 
     ```
-</details>
+    </details>
 
-3. Code a function that outputs (returns) `Goodbye [name]` where `[name]` is passed to the function as an argument.<details>
+3. Code a function that outputs (returns) `Goodbye [name]` where `[name]` is passed to the function as an argument.
+
+    <details>
     <summary>Show me</summary>
 
     Function definition (in my_functions.py):
@@ -69,9 +75,11 @@
     print(mf.goodbye_to(some_name))
 
     ```
-</details>
+    </details>
 
-4. Code a function that returns the product of the two numbers given as arguments.<details>
+4. Code a function that returns the product of the two numbers given as arguments.
+
+    <details>
     <summary>Show me</summary>
 
     Function definition (in my_functions.py):
@@ -92,9 +100,11 @@
     n2 = 7
     print(mf.product(n1, n2))
     ```
-</details>
+    </details>
 
-5. Code a function that returns the first element in the list given as an argument.<details>
+5. Code a function that returns the first element in the list given as an argument.
+
+    <details>
     <summary>Show me</summary>
 
     Function definition (in my_functions.py):
@@ -115,9 +125,11 @@
     print(mf.first_element(my_list))
 
     ```
-</details>
+    </details>
 
-6. Code a function that accepts a dict with `fname` and `lname` keys. It should print the first name and last name on one line with a space between each name.<details>
+6. Code a function that accepts a dict with `fname` and `lname` keys. It should print the first name and last name on one line with a space between each name.
+
+    <details>
     <summary>Show me</summary>
 
     Function definition (in my_functions.py):
@@ -138,9 +150,11 @@
     mf.print_full_name(user)
 
     ```
-</details>
+    </details>
 
-7. Modify the function you created for task 2 such that the name parameter is optional. If the caller does not pass a name the function should print `Hello Guest`.<details>
+7. Modify the function you created for task 2 such that the name parameter is optional. If the caller does not pass a name the function should print `Hello Guest`.
+
+    <details>
     <summary>Show me</summary>
 
     Function definition (in my_functions.py):
@@ -162,9 +176,11 @@
 
     mf.print_hello_to() # <!--
     ```
-</details>
+    </details>
 
-8. Code a function that accepts a number and an exponent as arguments and returns the number raised to the given power. Test it using keyword arguments, that is, call it such that the exponent is the first argument given and the number is the second.<details>
+8. Code a function that accepts a number and an exponent as arguments and returns the number raised to the given power. Test it using keyword arguments, that is, call it such that the exponent is the first argument given and the number is the second.
+
+    <details>
     <summary>Show me</summary>
 
     Function definition (in my_functions.py):
@@ -185,9 +201,11 @@
     num = 3
     print(mf.to_the_power(exponent=exp, number=num))
     ```
-</details>
+    </details>
 
-9. Code a function that increments by one a global variable named `counter`.<details>
+9. Code a function that increments by one a global variable named `counter`.
+
+    <details>
     <summary>Show me</summary>
 
     Function definition (in my_functions.py):
@@ -208,7 +226,7 @@
     mf.increment_counter()
     print(mf.counter)
     ```
-</details>
+    </details>
 
 10. What is written to stdout by the following code?
 

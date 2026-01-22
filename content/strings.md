@@ -16,11 +16,13 @@
     print("He said \"feeling good is not doing good\"")
     ```
 
-3. What is the effect of coding a string literal surrounded by triple quotes?<details>
+3. What is the effect of coding a string literal surrounded by triple quotes?
+
+    <details>
     <summary>Show me</summary>
 
     *The string can span many lines.*
-</details>
+    </details>
 
 4. What is output by the following line of code?
 
@@ -54,7 +56,9 @@
     - Replace the hyphen with a space
     - Capitalise the first letter of each name
 
-    Finally, write the data to stdout.<details>
+    Finally, write the data to stdout.
+    
+    <details>
     <summary>Show me</summary>
 
     ```python
@@ -63,7 +67,7 @@
     data = data.strip().replace("-", " ").title()
     print(data)
     ```
-</details>
+    </details>
 
 
 [<<< back](../README.md)

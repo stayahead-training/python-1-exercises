@@ -4,7 +4,9 @@
 
 [<<< back](../README.md)
 
-1. Code a script named **thats_odd.py** that prompts the user to enter a number and writes to stdout either `Yes - it's odd!` or `No - that's even!` depending on the value of the number entered.<details>
+1. Code a script named **thats_odd.py** that prompts the user to enter a number and writes to stdout either `Yes - it's odd!` or `No - that's even!` depending on the value of the number entered.
+
+    <details>
     <summary>Show me</summary>
 
     ```python
@@ -15,9 +17,11 @@
     else:
         print("No - that's even!")
     ```
-</details>
+    </details>
 
-2. Code a script named <b>generations.py</b> that prompts the user to enter the year in which he/she was born. The script should write to stdout the user's generation, e.g. Maturist (pre 1946) Baby Boomer (1946-1960), Gen X (1961-1980), Millenial (1981-1995), or Gen Z (post 1995).<details>
+2. Code a script named <b>generations.py</b> that prompts the user to enter the year in which he/she was born. The script should write to stdout the user's generation, e.g. Maturist (pre 1946) Baby Boomer (1946-1960), Gen X (1961-1980), Millenial (1981-1995), or Gen Z (post 1995).
+
+    <details>
     <summary>Show me</summary>
 
     ```python
@@ -34,9 +38,11 @@
     else:
         print("Gen Z")
     ```
-</details>
+    </details>
 
-3. Code a script named **every_even_number_to.py** that prompts the user to enter a number and writes to stdout every even number from 0 to the number given. Use a while loop.<details>
+3. Code a script named **every_even_number_to.py** that prompts the user to enter a number and writes to stdout every even number from 0 to the number given. Use a while loop.
+
+    <details>
     <summary>Show me</summary>
 
     ```python
@@ -47,9 +53,11 @@
         print(current_num)
         current_num += 2
     ```
-</details>
+    </details>
 
-4. Code a script named **adding_machine.py** that repeatedly prompts the user to enter a number until he/she enters `q` (for quit). The number entered in each iteration should be added to a total (initially 0) and the total should be written to stdout.<details>
+4. Code a script named **adding_machine.py** that repeatedly prompts the user to enter a number until he/she enters `q` (for quit). The number entered in each iteration should be added to a total (initially 0) and the total should be written to stdout.
+
+    <details>
     <summary>Show me</summary>
 
     ```python
@@ -64,9 +72,11 @@
             print(total)
 
     ```
-</details>
+    </details>
 
-5. Refactor the task 3 code to use a for loop with the built-in `range` function instead of a while loop.<details>
+5. Refactor the task 3 code to use a for loop with the built-in `range` function instead of a while loop.
+
+    <details>
     <summary>Show me</summary>
 
     ```python
@@ -75,9 +85,11 @@
     for num in range(0, max_num, 2):
         print(num)
     ```
-</details>
+    </details>
 
-6. Code a script named **cube_it.py** that stores a list of numbers from 1-10 in memory and then writes to stdout the cube of each of number in the list.<details>
+6. Code a script named **cube_it.py** that stores a list of numbers from 1-10 in memory and then writes to stdout the cube of each of number in the list.
+
+    <details>
     <summary>Show me</summary>
 
     ```python
@@ -85,7 +97,7 @@
     for num in nums:
         print(num ** 3)
     ```
-</details>
+    </details>
 
 7. Copy the list of dictionaries below into a script named <b>initials.py</b> and write the initials of each user to stdout.
 
@@ -98,6 +110,7 @@
         {"fname": "Yanis", "lname": "Paulus"}
     ]
     ```
+    
     <details>
     <summary>Show me</summary>
 
@@ -112,7 +125,7 @@
     for user in users:
         print(user["fname"][0], user["lname"][0], sep="")
     ```
-</details>
+    </details>
 
 8. What is written to stdout by the following code?
 

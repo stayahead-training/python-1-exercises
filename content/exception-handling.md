@@ -30,7 +30,9 @@
     print("The square of", num, "is", square)
     ```
 
-    This script will raise an exception and crash if the user does not enter a valid number. Refactor it so that it does not crash under any circumstances. You should try to recover from bad user input.<details>
+    This script will raise an exception and crash if the user does not enter a valid number. Refactor it so that it does not crash under any circumstances. You should try to recover from bad user input.
+    
+    <details>
     <summary>Show me</summary>
 
     ```python
@@ -45,7 +47,7 @@
     square = num ** 2
     print("The square of", num, "is", square)
     ```
-</details>
+    </details>
 
 3. What is output by the following lines of code?
 
