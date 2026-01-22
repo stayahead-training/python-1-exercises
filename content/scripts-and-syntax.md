@@ -16,7 +16,6 @@
     <br />
     <details>
     <summary>Show me</summary>
-    <br />
 
     - <span>doubleIt.py</span>: unconventional; contains capital letters
     - <span>2_times.py</span>: invalid; names must not begin with a digit
