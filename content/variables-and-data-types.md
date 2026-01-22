@@ -147,7 +147,7 @@ print(name)
 
     <details>
     <summary>Show me</summary>
-
+    <br />
     File contents:
 
     ```python
@@ -166,7 +166,7 @@ print(name)
 
     <details>
     <summary>Show me</summary>
-
+    <br />
     File contents:
 
     ```python
@@ -240,7 +240,7 @@ print(name)
     
     <details>
     <summary>Show me</summary>
-
+    <br />
     File contents:
 
     ```python
@@ -286,7 +286,7 @@ print(name)
 
     <details>
     <summary>Show me</summary>
-
+    <br />
     File contents:
 
     ```python
