@@ -21,7 +21,7 @@
     - <span>2_times.py</span>: invalid; names must not begin with a digit
     - <span>DoubleIt.py</span>: unconventional; contains capital letters
     - <span>times-2.py</span>: invalid; contains hyphens
-</details>
+    </details>
 
 2. Which of the following symbols is used to mark a line in a Python source code file as a comment?
 
@@ -38,7 +38,7 @@
     <summary>Show me</summary>
     
     - `#`
-</details>
+    </details>
 
 3. Which of the following symbols is used to terminate a line of code?
 
@@ -55,13 +55,15 @@
     <summary>Show me</summary>
     
     - None of the above - a line of code is terminated by the newline character
-</details>
+    </details>
 
-4. True or false. Variable and function names should adhere to the same conventions as do source code filenames.<br /><details>
+4. True or false. Variable and function names should adhere to the same conventions as do source code filenames.
+
+    <details>
     <summary>Show me</summary>
 
     *True*
-</details>
+    </details>
 
 5. Which of the following statements is valid and will write `Hello` to the screen?
 
@@ -76,6 +78,6 @@
     <summary>Show me</summary>
 
     - `print("Hello")`
-</details>
+    </details>
 
 [<<< back](../README.md)
