@@ -1,0 +1,13 @@
+Python
+- named after Monty Python 
+- scripting language 
+- dynamically typed (no need to spec type info; variables can change type)
+- object-oriented (everything is an object)
+- does not enforce error handling 
+
+Two ways of executing Python code:
+- REPL mode
+    - to enter REPL mode: python3
+    - to exit REPL mode: exit()
+- script mode
+    - to execute a script: python3 <file_name>
