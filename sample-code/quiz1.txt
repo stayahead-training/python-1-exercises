@@ -1,0 +1,46 @@
+Day 1 Quiz
+----------
+1. Differentiate between REPL and script mode.
+   REPL mode is interactive; one statement at a time
+   Script mode is for executing a whole file of code at once 
+
+2. Identify each part of the following statement: y = x // 2
+   x and 2 are operands
+   // is the floor division operator
+   y is a variable
+   = is the assignment operator  
+
+3. How should scripts, variables and functions be named? 
+   All lower case with underscores to separate words 
+
+4. Describe the effect of the following statement: b = a
+   The ref assoc with a will be assigned to b
+   The data is NOT copied
+   a and b know nothing about each other 
+   We can have many names for the same data  
+
+5. List nine builtin data types.
+   bool, int, float, None, str, list, dict, tuple, set 
+
+6. Which of the nine data types are containers?
+   str, list, dict, tuple, set 
+   str, list and tuple are indexed
+   dict and set are not 
+   str and tuple are both immutable 
+
+7. What does it mean to say an object is subscriptable?
+   It means you can access elements using the square bracket notation
+   container[subscript]
+
+8. What can we say about x: print(x[1]['id'])
+   x is a list/tuple/dict with a dict at position 2
+   the dict has a key of 'id' 
+
+9. What does it mean to say an object is either truthy or falsey?
+   Every object can be converted to bool 
+   a truthy object is one that will be True
+   a falsey object is one that will be False 
+
+10. What is produced by the following expression: None or [0]
+    [0]
+
