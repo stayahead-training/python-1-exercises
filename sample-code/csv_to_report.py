@@ -20,7 +20,8 @@ with PdfPages(output_file) as pdf:
     heading = 'Student Performance'
     date_text = f'Produced: {dt.date.today()}'
     author_text = f'By: {author}'
-    cols_text = f'Columns:\n {'\n'.join(['- ' + col for col in df.columns])}'
+    columns = '\n'.join('- ' + col for col in df.columns)
+    cols_text = f'Columns:\n {columns}'
     rows_text = f'Rows: {len(df)}'
 
     figure = plt.figure()
