@@ -1,0 +1,53 @@
+Stuart Bailey
+stuartb@stayahead.com
+
+Schedule
+--------
+ 9:30am     Start 
+11:00am     First break
+12:45pm     Lunch
+ 3:15pm     Second break
+ 5:00pm     End
+
+Outline
+-------
+Getting Started
+Scripts and Syntax
+Variables and Data Types
+Operators and Expressions
+Containers
+Conditions and Loops
+Functions
+Objects and Classes
+Modules and Packages
+Exception Handling
+Reading and Writing Files
+Comprehension
+Functional Programming
+
+VMs
+---
+https://arp.stayahead.com/rgw2/
+Username #1: OS012048
+Password #1: SwanSwan94
+Username #2: user1
+Password #2: SwanSwan94
+
+3011: Anderson
+3012: Ayana
+3013: Diego
+3014: Julien
+3015: Khaled
+3016: Milo
+3017: Wei
+3018: Ha 
+3019: Milos
+3021: Juan 
+
+Manual
+------
+https://arp.stayahead.com/manual/RAP4109093
+
+GitHub Repo
+-----------
+https://github.com/stayahead-training/python-1-exercises

@@ -18,3 +18,21 @@ greeting = 'Hello'
 num_of_ls = greeting.count('l')
 greeting = greeting.upper()
 print(greeting)
+
+# ---
+
+# nums is a variable
+# [1, 2, 3] is a list object
+nums = [1, 2, 3]
+
+nums.append(4)
+print(nums)
+
+# ---
+
+# coords is a variable
+# {...} is a dict object
+coords = {'x': 17, 'y': 11, 'z': 5}
+
+for value in coords.values():
+    print(value)
